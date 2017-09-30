@@ -1,6 +1,6 @@
-import { Bar } from 'vue-chartjs'
+import { Line } from 'vue-chartjs'
 
-export default Bar.extend({
+export default Line.extend({
   mounted () {
     // Overwriting base render method with actual data.
     this.renderChart({

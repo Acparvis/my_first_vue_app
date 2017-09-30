@@ -1,16 +1,15 @@
 <template>
   <div class="graph">
-		<h1>Graph</h1>
-    <thing></thing>
+    <barchart></barchart>
   </div>
 </template>
 
 <script>
-  import thing from './graph.js'
+  import barchart from './graph.js'
   export default {
     name: 'graph',
-    componenets: {
-      thing
+    components: {
+      barchart
     },
     data () {
       return {
