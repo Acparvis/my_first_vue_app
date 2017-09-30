@@ -1,4 +1,5 @@
 import { Line } from 'vue-chartjs'
+// import props from './graph.vue'
 
 export default Line.extend({
   mounted () {
@@ -9,9 +10,10 @@ export default Line.extend({
         {
           label: 'GitHub Commits',
           backgroundColor: '#f87979',
-          data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
+          data: [15, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
         }
       ]
-    })
+    }, {responsive: true, maintainAspectRatio: false}
+  )
   }
 })

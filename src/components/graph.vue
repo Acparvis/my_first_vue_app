@@ -1,5 +1,6 @@
 <template>
   <div class="graph">
+		<h1>Graph</h1>
     <barchart></barchart>
   </div>
 </template>

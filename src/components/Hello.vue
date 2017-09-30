@@ -5,6 +5,7 @@
     <p>{{ watchMath }}</p>
     <Shadow :num="number"
     ></Shadow>
+    <input></input>
     <Graph></Graph>
   </div>
 </template>
