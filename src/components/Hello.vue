@@ -5,15 +5,18 @@
     <p>{{ watchMath }}</p>
     <Shadow :num="number"
     ></Shadow>
+    <Graph></Graph>
   </div>
 </template>
 
 <script>
 import Shadow from './shadow.vue'
+import Graph from './graph.vue'
 export default {
   name: 'hello',
   components: {
-    Shadow
+    Shadow,
+    Graph
   },
   data () {
     return {
